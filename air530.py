@@ -46,7 +46,7 @@ def createCommand(gpscmd: str) -> bytes:
     # Test validity of entered command
     parts = gpscmd.split(",")
     cmd = parts[0]
-grove-air530.py
+
     # first see if the command is in a three-digit integer format
     try:
         if len(cmd) != 3:
